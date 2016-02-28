@@ -1,0 +1,10 @@
+#!/bin/bash
+
+NEW_COMPANY="$1"
+BASE_FILE="_hires_a_great_employee.feature"
+FILE_NAME=$NEW_COMPANY$BASE_FILE
+
+cp company_hires_a_great_employee.feature $FILE_NAME
+sed -i "s/Company/$NEW_COMPANY/g" $FILE_NAME
+
+echo "$FILE_NAME created!"
