@@ -1,0 +1,39 @@
+Hi Company!
+
+My name is Agustín Armellini Fischer and I am from Barcelona. I am currently undertaking my last year of my Computer
+Science and Computer Engineering degree, and what I really want to tell you in this letter is that no matter the
+challenge, I will take it.
+
+I love coding, and I believe nowadays is not about the technology you use (only) but about the ability to adapt quickly
+to the times that are changing. I have had to in the few jobs I have taken. A good example is my experience at Ulabox.
+I got accepted in June, and by then the CTO gave me a list of 5 books 500 pages each which I had to read before entering
+the company, plus links to talks and articles about the technologies they were using I also had to take a look at. I
+absolutely loved it. I got to learn about DDD, BDD, TDD and how those can work together to make better sustainable code.
+
+The funny thing is my first challenges didn’t have anything to do with those. The first day I found a bug in one of
+their servers, their MySQL plugin from New Relic wasn’t reporting a slave error so they didn’t have any idea that one of
+their MySQL servers wasn’t working, so I had to rewrite the plugin from New Relic in order to report those kinds of
+errors.
+
+The rest of my time I have been working on a project called Trucks which is basically an app to manage all orders that
+the trucks from our company are delivering. I built the API with Symfony2 that exchanged information with the main
+application of the company and programmed the whole frontend using AngularJS, everything fully tested with functional
+and unit tests. It has been fun.
+
+Currently I am working in the team which is developing the software that will manage all the intelligence of our Ulabox
+warehouses. The whole project is built towards Event Sourcing and each day I am getting more responsibilities and
+learning so much.
+
+I do learn quickly and work hard to get better every time (I guess everybody says that in these letters right? Sorry
+for that). I like learning from others and working in teams which are passionate about the things they do, because
+passion (for me) is what makes people create such awesome products even if their contribution only means a small part of
+something really really big. For me that’s the coolest thing about programming, look at the Open Source community, where
+would we be without them? Today we have the chance to make a difference with just a click away from us, it would be sad
+not to click.
+
+In any case, thank you for taking into consideration my application, hope the Gherkin feature was not too weird I really
+just wanted to call your attention.
+
+Best regards,
+
+Agus

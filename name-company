@@ -3,8 +3,13 @@
 NEW_COMPANY="$1"
 BASE_FILE="_hires_a_great_employee.feature"
 FILE_NAME=$NEW_COMPANY$BASE_FILE
+DIR=$NEW_COMPANY
 
-cp company_hires_a_great_employee.feature $FILE_NAME
-sed -i "s/Company/$NEW_COMPANY/g" $FILE_NAME
+mkdir $DIR
+cp company_hires_a_great_employee.feature "$DIR/$FILE_NAME"
+sed -i "s/Company/$NEW_COMPANY/g" "$DIR/$FILE_NAME"
 
-echo "$FILE_NAME created!"
+cp cover_letter.txt "$DIR/cover_letter.txt"
+sed -i "s/Company/$NEW_COMPANY/g" "$DIR/cover_letter.txt"
+
+echo "$DIR created!"

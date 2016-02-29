@@ -18,13 +18,13 @@ Feature: Company hires a great employee
     And loves reading tech books, and tech articles and experimenting with the latest tech trends
     And he has pretty solid programming skills including
       | Skill                                                                                               |
+      | Strong knowledge of PHP using awesome frameworks like Symfony2 (though I'm framework agnostic)      |
       | Develop clean and tested code following BDD, TDD and other awesome acronyms like DDD                |
       | Black belt on C and ASM, brown belt on Java and C++                                                 |
-      | Strong knowledge of PHP using awesome frameworks like Symfony2                                      |
       | Likes to play being a DevOps using Ansible, Vagrant, Docker, Jenkins and whatever is new            |
       | JavaScript ninja in the server and client side, always with EC6, sometimes TypeScript               |
       | Loves AngularJS, not so sure about AngularJS 2, and falling in love with ReactJS                    |
-      | Hybrid app craftsman with Ionic, starting to like React Native                                      |
+      | Hybrid app craftsman with Ionic (though I've written native apps when there was the need to)        |
       | Tries to apply hexagonal architecture to every project even if it's a C project                     |
       | Ability to program microcontrollers to do stuff most people would not find useful (but I find cool) |
       | Currently discovering the exciting world of Event Sourcing                                          |
