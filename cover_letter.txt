@@ -1,14 +1,17 @@
 Hi Company!
 
-My name is Agustín Armellini Fischer and I am from Barcelona. I am currently undertaking my last year of my Computer
-Science and Computer Engineering degree, and what I really want to tell you in this letter is that no matter the
+My name is Agustín Armellini Fischer and I am from Barcelona. I am currently finishing my internship as a
+Software Engineer at Spotify in Stockholm, and what I really want to tell you in this letter is that no matter the
 challenge, I will take it.
 
 I love coding, and I believe nowadays is not about the technology you use (only) but about the ability to adapt quickly
-to the times that are changing. I have had to in the few jobs I have taken. A good example is my experience at Ulabox.
-I got accepted in June, and by then the CTO gave me a list of 5 books 500 pages each which I had to read before entering
-the company, plus links to talks and articles about the technologies they were using I also had to take a look at. I
-absolutely loved it. I got to learn about DDD, BDD, TDD and how those can work together to make better sustainable code.
+to the times that are changing. I have had to in the few jobs I have taken.
+
+
+A good example is my experience at Ulabox. When I started the CTO gave me a list of 5 books 500 pages each which I had to
+read before entering the company, plus links to talks and articles about the technologies they were using I also had to take
+a look at. I absolutely loved it. I got to learn about DDD, BDD, TDD and how those can work together to make better
+sustainable code.
 
 The funny thing is my first challenges didn’t have anything to do with those. The first day I found a bug in one of
 their servers, their MySQL plugin from New Relic wasn’t reporting a slave error so they didn’t have any idea that one of
@@ -18,11 +21,15 @@ errors.
 The rest of my time I have been working on a project called Trucks which is basically an app to manage all orders that
 the trucks from our company are delivering. I built the API with Symfony2 that exchanged information with the main
 application of the company and programmed the whole frontend using AngularJS, everything fully tested with functional
-and unit tests. It has been fun.
+and unit tests. It has been fun. After I worked in the team which was developing the software that will manage all the
+intelligence of the Ulabox warehouses. The whole project is built towards Event Sourcing and I learned a lot; so much
+that I applied it to my Spotify summer project!
 
-Currently I am working in the team which is developing the software that will manage all the intelligence of our Ulabox
-warehouses. The whole project is built towards Event Sourcing and each day I am getting more responsibilities and
-learning so much.
+At Spotify I had to create a graph representation of our whole music catalog, and for that I used Neo4J and I built a
+service with a CQRS (in case Neo4J didn't work and I wanted to try other options) and an Event Sourcing architecture
+(to have a history of the changes made to the catalog). It has been a really cool project and fun to code in a
+language I was not used to use professionally (Java) plus managing millions and millions of data (which we did not
+have at Ulabox).
 
 I do learn quickly and work hard to get better every time (I guess everybody says that in these letters right? Sorry
 for that). I like learning from others and working in teams which are passionate about the things they do, because

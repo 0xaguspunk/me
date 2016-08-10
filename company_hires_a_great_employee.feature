@@ -9,6 +9,7 @@ Feature: Company hires a great employee
     And he has studied a year abroad in New York at Manhattan College getting in the Dean's Honor List
     And he's been working since his second year of university at the following places
       | Position                        | At            | Period of time              |
+      | Software Engineer Summer Intern | Spotify       | June 2016 - Currently       |
       | Junior Software Engineer        | Ulabox        | September 2015 - Currently  |
       | Software Engineer Summer Intern | Ulabox        | June 2015 - September 2015  |
       | Junior Software Engineer        | Pick d Pack   | January 2015 - April 2015   |
@@ -20,7 +21,7 @@ Feature: Company hires a great employee
       | Skill                                                                                               |
       | Strong knowledge of PHP using awesome frameworks like Symfony2 (though I'm framework agnostic)      |
       | Develop clean and tested code following BDD, TDD and other awesome acronyms like DDD                |
-      | Black belt on C and ASM, brown belt on Java and C++                                                 |
+      | Black belt on Java, C and ASM, brown belt on C++ and Lisp                                           |
       | Likes to play being a DevOps using Ansible, Vagrant, Docker, Jenkins and whatever is new            |
       | JavaScript ninja in the server and client side, always with EC6, sometimes TypeScript               |
       | Loves AngularJS, not so sure about AngularJS 2, and falling in love with ReactJS                    |
